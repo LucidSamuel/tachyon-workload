@@ -1,0 +1,9 @@
+__pycache__/
+*.py[cod]
+.venv/
+/config.local.toml
+/wallets/
+/state/
+/receipts/
+*.sqlite
+*.sqlite-*

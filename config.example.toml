@@ -1,0 +1,23 @@
+# Paths are relative to this file. Run from the repository root.
+rpc_url = "http://127.0.0.1:18232"
+devtool = "../zcash-devtool/target/release/zcash-devtool"
+# Keep private runtime data outside both source checkouts.
+wallet_root = "../tachyon-workload-data/wallets"
+state_dir = "../tachyon-workload-data/state"
+activation_height = 8
+# cookie_file = "/path/to/node/.cookie"
+wallet_count = 32
+max_transactions = 8
+concurrency = 4
+poll_seconds = 2
+command_timeout = 1800
+min_amount_zat = 100000
+max_amount_zat = 2000000
+seed_amount_zat = 10000000
+seed_notes = 3
+
+[weights]
+send = 80
+unshield = 8
+shield = 8
+transparent-send = 4
